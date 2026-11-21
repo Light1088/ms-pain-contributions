@@ -1,4 +1,6 @@
 # Gameplay Mechanics — Browser Adaptation
+
+**[Open the live demo](https://light1088.github.io/ms-pain-contributions/)**
 This demonstration adapts selected rules from the supplied MS Pain source. It is not a port of the complete PainterEngine game, and it contains no team artwork or engine code.
 
 | Browser feature | Original implementation reference |
@@ -21,7 +23,7 @@ The resource test starts at two swaps, rather than the original four, to make re
 ## Validation
 Run `node mechanics.test.mjs` for checks of travel timing, endpoint reversal, phase, zero-speed/zero-distance handling, contact-gated collection and resource limits. These checks passed before publication.
 
-Browser UI checks remain pending publication. Original game integration and C# runtime tests are not claimed by these JavaScript tests.
+Live browser checks also passed: platform pause/resume, speed adjustment and restart; collection blocked outside contact; one swap added per press while touching; cap enforced at four; resource consumption; C-key refill; and Reset restoring two swaps and the initial player position. Original game integration and C# runtime tests are not claimed by these browser/JavaScript checks.
 
 ## Publish
 In repository Settings → Pages, choose Deploy from a branch, main, /(root), then Save. index.html loads the JavaScript modules directly; no visitor installation or external graphics library is required.
