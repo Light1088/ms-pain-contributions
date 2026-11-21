@@ -42,7 +42,7 @@ These IDs refer to the private original repository, not this new showcase. Visit
 ## Project scope and team credit
 MS Pain is a team project. Other contributors developed other parts of the game and its supporting systems. This repository does not publish their source code, assets or the original repository history.
 
-This is a written contribution showcase, not a downloadable game or runnable game build. No final gameplay footage or standalone source extracts have been included yet.
+A standalone browser adaptation of selected mechanics is included as index.html, demo.js and mechanics.mjs. It demonstrates platform motion and swap-resource rules using simple shapes; it is not the original game build. See DEMO_NOTES.md for the source mapping, controls and validation.
 
 ## About me
 Brian Tam Yek Won — BSc (Hons) Computer Science in Interactive Media and Game Development, DigiPen Institute of Technology Singapore / Singapore Institute of Technology.
